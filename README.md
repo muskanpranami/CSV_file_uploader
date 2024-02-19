@@ -1,5 +1,12 @@
 ## CSV_Upload
-CSV_Upload is a web application that allows users to upload and parse CSV files. The application is built with Node.js and Express, and it provides a simple and user-friendly interface for managing CSV data.
+
+## Overview
+This CSV File Uploader and Parser is a simple tool designed to facilitate the uploading and parsing of CSV (Comma Separated Values) files. It provides an easy-to-use interface for users to upload CSV files, which are then processed to extract and display the data in a structured format.
+
+## Features
+- Upload CSV Files: Users can easily upload CSV files using the provided interface.
+- Parse CSV Data: The tool parses the uploaded CSV file and extracts the data, making it accessible for further analysis.
+- Searching: Users can search for data in the table.
 
 ## Installation
 To install CSV_Upload, please follow these steps:
@@ -14,38 +21,16 @@ Start the application using the following command:
 $ npm start 
 
 Open the application in your web browser by visiting the following URL:
-$ http://localhost:3900 
+$ http://localhost:3900
 
-## Features
-- CSV file upload: Users can upload CSV files with a simple web form.
-- CSV parsing: The application parses the CSV data and displays it in a table.
-- Searching: Users can search data in the table.
+## Usage
+- Open the application in your web browser.
+- Click on the "Upload" button to select and upload a CSV file.
+- Once the file is uploaded, the tool will automatically parse the CSV data and display it in a structured format on the page.
+- Explore the parsed data and use it for your analysis or processing.
 
 ## API Reference
 CSV_Upload provides a simple API for uploading and parsing CSV files. The API supports the following endpoints:
 
 - POST /upload: Uploads a CSV file and parses the data.
 - GET /data: Returns the parsed CSV data as JSON.
-
-## Folder Structure
-CSV_Upload/
-|── |assets/
-│   |      ├── css/
-│   │      |     ├── styles.css
-│   |      ├── js/
-│   |            ├── script.js
-│   ├── uploads/
-│   ├── index.html
-|   |
-├── routes/
-│   ├── csvRoutes.js
-|   |
-├── controllers/
-│   ├── csvController.js
-|   |
-├── models/
-│   ├── csvModel.js
-|   |
-├── .gitignore
-├── package.json
-├── README.md
