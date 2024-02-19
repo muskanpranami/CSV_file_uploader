@@ -34,3 +34,6 @@ CSV_Upload provides a simple API for uploading and parsing CSV files. The API su
 
 - POST /upload: Uploads a CSV file and parses the data.
 - GET /data: Returns the parsed CSV data as JSON.
+
+## Hosting Link
+https://muskanpranami.github.io/CSV_file_uploader/
