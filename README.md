@@ -12,7 +12,7 @@ This CSV File Uploader and Parser is a simple tool designed to facilitate the up
 To install CSV_Upload, please follow these steps:
 
 - Clone this repository using the following command:
-$ git clone https://github.com/agentgrey/CSV_Upload.git
+$ git clone https://github.com/muskanpranami/CSV_file_uploader.git
 
 - Install the required dependencies using the following command:
 $ npm install 
